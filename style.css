@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Digital";
+  src: url(font.ttf);
+}
+
+body {
+  font-family: "Digital";
+  background-color: #1b2021;
+  color: #d8ac9c;
+  text-align: center;
+  font-size: 2vw;
+}
+
+h1,
+h2 {
+  margin: 1vh auto;
+  font-size: 3em;
+}
+
+section {
+  margin: 2vh auto;
+  width: 80vw;
+  border: 1px solid #5f939a;
+  border-radius: 10px;
+}
+
+table {
+  margin: auto;
+}
+
+.arrows {
+  font-size: 2em;
+}
+
+.timer {
+  font-size: 5em;
+}
+
+#minText,
+#secText,
+#msText {
+  width: 20vw;
+}
+
+.btn,
+.btn:hover {
+  background-color: #d8ac9c;
+  color: #1b2021;
+  border-color: #5f939a;
+  height: 10vh;
+  font-size: 3vh;
+  padding: 0 2vh;
+}
+
+.btn:hover {
+  background-color: #eac8af;
+}
+
+#startBtn {
+  width: 68%;
+  margin-left: 4%;
+}
+
+.controls {
+  position: absolute;
+  padding: 1vh 0;
+  bottom: 1vh;
+  left: 0;
+  right: 0;
+}

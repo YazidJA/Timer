@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Javascript -->
+    <script src="./index.js" defer></script>
+  </head>
+
+  <body class="container-fluid">
+    <section><h1>TIMER</h1></section>
+    <section id="timer">
+      <table>
+        <tr class="arrows">
+          <td id="minUp"><i class="fas fa-chevron-up"></i></td>
+          <td></td>
+          <td id="secUp"><i class="fas fa-chevron-up"></i></td>
+          <td></td>
+          <td id="msUp"><i class="fas fa-chevron-up"></i></td>
+        </tr>
+        <tr class="timer">
+          <td id="minText">00</td>
+          <td>:</td>
+          <td id="secText">00</td>
+          <td>:</td>
+          <td id="msText">00</td>
+        </tr>
+        <tr class="arrows">
+          <td id="minDown"><i class="fas fa-chevron-down"></i></td>
+          <td></td>
+          <td id="secDown"><i class="fas fa-chevron-down"></i></td>
+          <td></td>
+          <td id="msDown"><i class="fas fa-chevron-down"></i></td>
+        </tr>
+      </table>
+    </section>
+    <!-- <section><h2 id="timer">00 : 00 : 00</h2></section> -->
+    <section>
+      <h2 id="log">STOPPED</h2>
+    </section>
+    <section class="controls">
+      <button id="resetBtn" class="btn">RESET</button>
+      <button id="startBtn" class="btn">START</button>
+    </section>
+  </body>
+</html>
