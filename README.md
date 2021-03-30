@@ -1,2 +1,1 @@
-# Timer
- 
+# Countdown Timer with Javascript
