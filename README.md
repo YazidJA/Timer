@@ -1,1 +1,2 @@
-# Countdown Timer with Javascript
+# Countdown Timer
+Countdown Timer App made with HTML/CSS/Javascript
