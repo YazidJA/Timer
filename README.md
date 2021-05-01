@@ -1,2 +1,4 @@
 # Countdown Timer
-Countdown Timer App made with HTML/CSS/Javascript
+## Countdown Timer App.
+## Made with HTML/CSS/Javascript.
+## 100% Responsive.
